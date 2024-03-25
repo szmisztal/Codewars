@@ -10,4 +10,4 @@ def git_commit_push(message):
         print(f"Error: {e}")
 
 
-git_commit_push("Commit by my script")
+git_commit_push("Automatic commit by my script")
