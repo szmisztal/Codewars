@@ -26,6 +26,3 @@ def order_weight(strng):
         return ""
     result = strng.split()
     return " ".join(sorted(result, key = lambda x: (sum(int(c) for c in x), x)))
-
-
-
