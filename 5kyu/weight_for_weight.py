@@ -22,4 +22,9 @@ For C: The result is freed."""
 
 
 def order_weight(strng):
-    # your code
+    if strng == "":
+        return strng
+    return strng.split()
+
+
+print(order_weight("56 65 74 100 99 68 86 180 90"))
