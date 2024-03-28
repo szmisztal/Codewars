@@ -22,9 +22,10 @@ For C: The result is freed."""
 
 
 def order_weight(strng):
-    if strng == "":
-        return strng
-    return strng.split()
+    if not strng:
+        return ""
+    result = strng.split()
+    return " ".join(sorted(result, key = lambda x: (sum(int(c) for c in x), x)))
 
 
-print(order_weight("56 65 74 100 99 68 86 180 90"))
+
