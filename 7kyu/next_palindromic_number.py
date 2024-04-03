@@ -23,5 +23,3 @@ def next_pal(val):
             break
         i =+ 1
     return val
-
-
