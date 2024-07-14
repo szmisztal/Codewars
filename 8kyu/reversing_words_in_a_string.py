@@ -10,7 +10,5 @@ Happy coding!"""
 
 
 def reverse(st):
-    return " ".join(reversed(st.split(" ")))
+    return " ".join(s for s in reversed(st.split(" ")) if s)
 
-
-print(reverse("gello world"))
