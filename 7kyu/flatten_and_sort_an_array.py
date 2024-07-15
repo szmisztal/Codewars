@@ -13,5 +13,3 @@ def flatten_and_sort(array):
         result.extend(i)
     return sorted(result)
 
-
-print(flatten_and_sort([[1, 3, 5], [100], [2, 4, 6]]))
